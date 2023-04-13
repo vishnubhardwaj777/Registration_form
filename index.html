@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body class="bg-white mx-2 ">
+    <!-- registration Form -->
+    <h1 class="font-bold text-purple-500 text-3xl mx-2">Registration Form</h1>
+    <h3 class="font-semibold my-3 mx-2 text-gray-400 ">Please fill your details</h3>
+    <hr>
+    <form action="#" class="my-4">
+        <label class="font-bold mx-2 cursor-pointer" for="fname">Name :</label>
+        <div>
+            <input class="w-80 mx-2 rounded-md shadow-green-900 shadow-md" type="text" name="myName" id="fname"
+                placeholder="First Name" required>
+        </div>
+        <br>
+        <label for="lname" class="font-bold mx-2 cursor-pointer">Surname :</label>
+        <div>
+            <input class="w-80 mx-2 rounded-md shadow-green-900 shadow-md" type="text" name="mySurname" id="lname"
+                placeholder="Last Name" required>
+        </div>
+        <br>
+        <label class="font-bold mx-2 cursor-pointer" for="email">Email ID :</label>
+        <div>
+            <input class="w-80 mx-2 rounded-md shadow-green-900 shadow-md" type="email" name="myEmail" id="email"
+                placeholder="xyz@gmail.com" required>
+        </div>
+        <br>
+        <label class="font-bold mx-2 cursor-pointer" for="mobile">Mobile no :</label>
+        <div>
+            <input class="w-80 mx-2 rounded-md shadow-green-900 shadow-md" type="tel" name="myMobile" id="mobile"
+                placeholder="99999*****">
+        </div>
+        <br>
+        <label class="font-bold mx-2 " for="gender">Gender :</label>
+        <div>
+            <label class="font-semibold mx-2" for="gender">Male </label>
+            <input type="radio" name="myGender" id="gender">
+            <label class="font-semibold mx-2" for="gender">Female </label>
+            <input type="radio" name="myGender" id="gender">
+        </div>
+        <br>
+        <label class="font-bold mx-2 cursor-pointer" for="dob">Date Of Birth (DOB) :</label>
+        <div>
+            <input class="w-80 mx-2 rounded-md shadow-green-900 shadow-md" type="date" name="myDob" id="dob" required>
+        </div>
+        <br>
+        <div>
+            <label class="font-bold mx-2 cursor-pointer" for="eligible">Are You 18+ ?</label>
+            <input class="rounded-md shadow-green-900 shadow-md" type="checkbox" name="myEligible" id="eligible"
+                required>
+        </div>
+        <br>
+        <label class="font-bold mx-2 cursor-pointer" for="address">Address :</label>
+        <div>
+            <textarea class="w-80 mx-2 rounded-md shadow-green-900 shadow-md" name="myAddress" id="address" cols="25"
+                rows="5"></textarea>
+        </div>
+        <br>
+        <label class="font-bold mx-2 cursor-pointer" for="city">City :</label>
+        <div>
+            <input class="w-80 mx-2 rounded-md shadow-green-900 shadow-md" type="text" name="myCity" id="city"
+                placeholder="Lucknow">
+        </div>
+        <br>
+        <label class="font-bold mx-2 cursor-pointer" for="state">State :</label>
+        <div>
+            <input class="w-80 mx-2 rounded-md shadow-green-900 shadow-md" type="text" name="myState" id="state"
+                placeholder="Uttar Pradesh">
+        </div>
+        <br>
+        <div>
+            <label class="font-bold mx-2 " for="Course">Courses :</label>
+            <select class=" rounded-md shadow-green-900 shadow-md" name="myCourse" id="course" required>
+                <option value="#">---Select One---</option>
+                <option value="">B.Tech</option>
+                <option value="">BCA</option>
+                <option value="">B.Sc</option>
+                <option value="">B.Arch</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <input class="bg-blue-500 w-44 font-bold rounded-md shadow-green-900 shadow-md mx-5 cursor-pointer"
+                type="submit" value="Submit Now">
+            <input class="bg-blue-500 w-44 font-bold rounded-md shadow-green-900 shadow-md cursor-pointer" type="Reset"
+                value="Reset">
+        </div>
+    </form>
+</body>
+
+</html>
